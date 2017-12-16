@@ -41,5 +41,6 @@ let redisOnMessage = (channel, message) => {
 redisClient.on('message', (channel, message) => redisOnMessage(channel, message))
  
 wss.on('connection', (ws) => {
+    console.log('Client connected')
     ws.on('message', (payload) => wsOnMessage(payload, ws))
 })
