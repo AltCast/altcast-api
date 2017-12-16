@@ -18,7 +18,7 @@ let wsOnSubscribe = (channel, socket) => {
     if (!channels.hasOwnProperty(channel)) {
         channels[channel] = [socket]
     } else {
-        channels.push(socket)
+        channels[channel].push(socket)
     }
 }
  
