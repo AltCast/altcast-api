@@ -27,7 +27,7 @@ let wsOnMessage = (payload, socket) => {
     if (message.type === 'subscribe') {
         wsOnSubscribe(message.exchange_pair, socket)
     } else {
-        console.debug('Ignoring payload: ', payload)
+        console.log('Ignoring payload: ', payload)
     }
 }
 
