@@ -1,5 +1,5 @@
 let WebSocketServer = require('uws').Server
-let wss = new WebSocketServer({ port: 1337 })
+let wss = new WebSocketServer({ port: process.env.HTTP_PORT || 1337 })
 let redisClient = require('redis').createClient({
     host: process.env.REDIS_HOST || 'localhost',
     port: process.env_REDIS_PORT || 6379
