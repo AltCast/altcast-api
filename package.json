@@ -1,0 +1,26 @@
+{
+  "name": "altcast-api",
+  "version": "0.0.1",
+  "description": "Altcast Streaming API",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/AltCast/altcast-api.git"
+  },
+  "keywords": [
+    "crypto",
+    "cryptocurrencies",
+    "exchaanges",
+    "api",
+    "nodejs"
+  ],
+  "author": "André Abadesso <andre@lab21k.com.br>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AltCast/altcast-api/issues"
+  },
+  "homepage": "https://github.com/AltCast/altcast-api#readme"
+}
