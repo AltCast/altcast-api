@@ -22,5 +22,9 @@
   "bugs": {
     "url": "https://github.com/AltCast/altcast-api/issues"
   },
-  "homepage": "https://github.com/AltCast/altcast-api#readme"
+  "homepage": "https://github.com/AltCast/altcast-api#readme",
+  "dependencies": {
+    "redis": "^2.8.0",
+    "uws": "^9.14.0"
+  }
 }
